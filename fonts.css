@@ -1,0 +1,10 @@
+/* adding fonts from file */
+@font-face {
+    font-family: 'FuturaPTMedium';
+    src: url('fonts/FuturaPTMedium.otf');
+}
+
+@font-face {
+    font-family: 'TiemposHeadline';
+    src: url('fonts/TiemposHeadline-Regular.otf');
+}
