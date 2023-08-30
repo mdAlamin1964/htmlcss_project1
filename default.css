@@ -1,0 +1,61 @@
+/* Default styles */
+
+.menu-text {
+    color: var(--primary-font);
+    font-size: 18px;
+    font-family: var(--primary-font);
+}
+
+
+/* Main buttons */
+.main-btn {
+    background-color: var(--primary-color);
+    padding: 12px 20px;
+    border-radius: 50px;
+    color: var(--secondary-color);
+    margin-left: 15px;
+    transition: 0.3s !important;
+}
+
+
+.main-btn:hover {
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(124,124,124,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(124,124,124,1) 100%);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(124,124,124,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#7c7c7c",GradientType=1); 
+}
+
+
+
+.site-btn-2 {
+    color: var(--primary-font);
+    font-size: 18px;
+    font-family: var(--primary-font);
+    padding: 17px 30px;
+    border: 1px solid var(--primary-color);
+    border-radius: 50px;
+    display: inline-block;
+    background-color: #fcfcfc;
+}
+
+
+
+.title-h1 {
+    font-family: 'TiemposHeadline';
+    font-size: 6em;
+    color: var(--primary-color);
+}
+
+.site-text1 {
+    font-family: var(--site-text-font);
+    font-size: 24px;
+    color: var(--primary-color);
+}
+
+
+.title-h2 {
+    font-family: 'TiemposHeadline';
+    font-size: 3.5em;
+    color: var(--primary-color);
+}

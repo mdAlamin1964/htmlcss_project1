@@ -8,3 +8,8 @@
     font-family: 'TiemposHeadline';
     src: url('fonts/TiemposHeadline-Regular.otf');
 }
+
+@font-face {
+    font-family: 'FuturaPTLight';
+    src: url('fonts/FuturaPTBook.otf');
+}
