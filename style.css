@@ -9,7 +9,7 @@
     --content-max-width: 1700px;
     --site-padding: 2em;
     --site-transition: 0.3s;
-    --saction-padding: 15em 13em;
+    --saction-padding: 15em 0;
 }
 
 
@@ -19,6 +19,7 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    box-sizing: border-box;
 }
 
 
@@ -330,7 +331,7 @@
 
 .footer-top-form  {
     display: grid;
-    grid-template-columns: 60% 30%;
+    grid-template-columns: 60% 150px;
     column-gap: 60px;
 
 }

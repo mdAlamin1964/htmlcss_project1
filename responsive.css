@@ -1,0 +1,87 @@
+/* Tap screen */
+@media (max-width:1330px) {
+
+    :root {
+        --primary-font: 'FuturaPTMedium';
+        --secondary-font: 'TiemposHeadline';
+        --site-text-font: 'FuturaPTLight';
+        --primary-color: #32302f;
+        --border-color:  #d6d6d6;
+        --secondary-color: #fcfcfc;
+        --content-max-width: 1700px;
+        --site-padding: 2em;
+        --site-transition: 0.3s;
+        --saction-padding: 7em 3em;
+    }
+
+
+
+
+
+
+    .main-header {
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .main-header .header-logo{
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-header .header-logo img {
+        width: 200px;
+    }
+    .header-main-menu > ul > li {
+        margin: 0 5px;
+    }
+
+    .main-header .header-right {
+        display: none;
+    }
+
+    .header-main-menu .sub-menu {
+        margin-top: 0px;
+        border-top: none;
+        background: rgb(251, 251, 251);
+    }
+
+
+    .footer-top {
+        grid-template-columns: 50% 50%;
+        column-gap: 0;
+    }
+
+    .footer-top-form {
+        display: block;
+    }
+
+    .footer-top-form button {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+
+}
+
+
+
+
+@media (max-width: 935px) {
+    .main-footer {
+        display: block;
+    }
+    
+    .main-footer .box {
+        margin-bottom:  40px;
+    }
+
+    .main-footer .box li {
+        margin-bottom: 5px;
+    }
+
+    .main-footer .footer-heading {
+        margin-bottom: 10px;
+    }
+}
