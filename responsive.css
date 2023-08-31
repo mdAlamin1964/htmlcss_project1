@@ -84,4 +84,52 @@
     .main-footer .footer-heading {
         margin-bottom: 10px;
     }
+
+
+    .saction-layout-all {
+        display: block;
+    }
+
+    .saction-layout-video .saction-image, .saction-layout-video video{
+        position: static;
+        width: 100%;
+        margin-bottom: -25px;
+        margin: auto;
+    }
+
+    .saction-layout-video {
+        text-align: center;
+    }
+
+    .home-saction-5-box {
+        display: block;
+    }
+
+    .home-saction-5-box .box {
+        margin-bottom: 40px;
+        padding: 20px;
+        height: inherit;
+    }
+
+    .home-saction-6 video {
+        bottom: -30%;
+    }
+    .home-saction-6 .title-h2 {
+        font-size: 3em;
+    }
+    .home-saction-6 {
+        height: 800px;
+    }
+
+    .home-saction-5-box video, .home-saction-5-box .saction-image  {
+        display: none;
+    }
+
+    .title-h1 {
+        font-size: 4em;
+    }
+
+    .header-main-menu .sub-menu li{
+        padding: 10px 0;
+    }
 }

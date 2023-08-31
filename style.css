@@ -9,7 +9,7 @@
     --content-max-width: 1700px;
     --site-padding: 2em;
     --site-transition: 0.3s;
-    --saction-padding: 15em 0;
+    --saction-padding: 15em 10em;
 }
 
 
@@ -86,6 +86,7 @@
     -webkit-box-shadow: 3px 5px 12px -1px rgba(0,0,0,0.07);
     -moz-box-shadow: 3px 5px 12px -1px rgba(0,0,0,0.07);
     transition: var(--site-transition);
+    
 }
 
 
@@ -230,7 +231,7 @@
     border-radius: 10px;
     overflow: hidden;
     position: relative;
-    height: 600px;
+    height: 800px;
 }
 
 
@@ -281,7 +282,7 @@
     padding: var(--saction-padding);
     padding-bottom: 6em;
     background: #fbeee6;
-    height: 900px;
+    height: 1000px;
     overflow: hidden;
     position: relative;
 }
@@ -301,7 +302,7 @@
     width: 100%;
     position: absolute;
     left: 0;
-    bottom: -10%;
+    bottom: -20%;
     height: 700px;
     object-fit: cover;
 }
